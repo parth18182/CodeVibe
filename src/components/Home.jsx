@@ -1,10 +1,12 @@
-import React from "react";
-import Navbar from "../ReusableCompo/Navbar";
+import React from 'react'
+import ImgSlider from './ImgSlider'
 
-function Home() {
-  return <div>
-    <Navbar/>
-  </div>;
+const Home = () => {
+  return (
+    <div className='w-full h-175'>
+      <ImgSlider/>
+    </div>
+  )
 }
 
-export default Home;
+export default Home
